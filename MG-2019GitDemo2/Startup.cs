@@ -33,6 +33,7 @@ namespace MG_2019GitDemo2
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                     await context.Response.WriteAsync(" 1st Edited by Shiva!");
                 });
             });
         }
